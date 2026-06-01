@@ -288,7 +288,7 @@ http://localhost:8000
 Aynı ağdaki fiziksel telefondan test yapılacaksa `localhost` yerine bilgisayarın yerel IP adresi kullanılmalıdır. Örneğin:
 
 ```text
-http://192.168.1.20:8000
+http://196.168.1.24:8080
 ```
 
 ---
