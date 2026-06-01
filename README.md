@@ -384,54 +384,6 @@ Kullanıcı panelinde kamera/galeri üzerinden görüntü seçme, önizleme ve a
 
 Admin panelinde gelen yol sorunları, güven skoru ve durum güncelleme butonları yer almaktadır.
 
-README dosyasına ekran görüntüsü eklemek istenirse aşağıdaki örnek yapı kullanılabilir:
-
-```markdown
-![Kullanıcı Paneli](docs/screenshots/user-panel.png)
-
-![Admin Paneli](docs/screenshots/admin-panel.png)
-```
-
----
-
-## Teslim / GitHub İçin Dikkat Edilecekler
-
-Teslim veya GitHub paylaşımı yapılırken aşağıdaki klasörlerin eklenmemesi önerilir:
-
-```text
-.venv/
-node_modules/
-.expo/
-__pycache__/
-.dist/
-```
-
-Bu klasörler çalışma ortamında otomatik oluşur ve proje boyutunu gereksiz şekilde büyütür.
-
-`.gitignore` dosyasına aşağıdaki kurallar eklenebilir:
-
-```gitignore
-# Python
-.venv/
-__pycache__/
-*.pyc
-
-# Node / Expo
-node_modules/
-.expo/
-dist/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Uploads
-backend/app/uploads/*
-!backend/app/uploads/.gitkeep
-```
-
-Model dosyası büyükse GitHub'a yükleme aşamasında dosya boyutu kontrol edilmelidir. Gerekirse model dosyası Google Drive üzerinden paylaşılabilir ve README içerisinde model dosyasının nereye yerleştirileceği açıklanabilir.
-
 ---
 
 ## Projenin Öne Çıkan Yönleri
