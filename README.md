@@ -328,7 +328,7 @@ Mobil uygulama fiziksel telefonda çalıştırılacaksa backend URL'si bilgisaya
 Örnek:
 
 ```javascript
-const API_BASE_URL = "http://192.168.1.20:8000";
+const API_BASE_URL = "http://196.168.1.24:8080";
 ```
 
 Android emülatör kullanılacaksa genellikle şu adres tercih edilir:
