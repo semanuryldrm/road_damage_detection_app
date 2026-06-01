@@ -372,7 +372,7 @@ const API_BASE_URL = "http://localhost:8000";
 
 ---
 
-## Ekran Görüntüleri
+## Mobil Uygulama Arayüzü
 
 Proje arayüzünde kullanıcı ve admin panelleri tamamlanmıştır.
 
